@@ -44,6 +44,11 @@ jobs:
         Triple: 'aarch64-linux-gnu'
         RustTarget: 'aarch64-unknown-linux-gnu'
         CrossBuilding: true
+      loongarch64:
+        PlatformId: 'linux-loongarch64'
+        Triple: 'loongarch64-linux-gnu'
+        RustTarget: 'loongarch64-unknown-linux-gnu'
+        CrossBuilding: true
 
   container:
     image: 'vadimcn/linux-builder:latest'
